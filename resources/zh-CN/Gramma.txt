@@ -1,0 +1,4 @@
+WRUB.Person;指定没你好果汁吃
+WRUB.Person;撅了;WRUB.Person
+WRUB.Person;吃了;WRUB.Noun
+WRUB.Noun;毁灭

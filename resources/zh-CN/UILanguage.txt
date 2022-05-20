@@ -1,0 +1,7 @@
+ShowText_Choose=请选择
+ShowText_MakeSentenceBase=生成基础句子
+ShowText_MakeSentencePro=生成高级句子
+ShowText_MakeArticle=生成文章
+ShowText_Plenty=请输入生成数量
+ShowText_Finish=已完成
+ShowText_NoDivided=是否人物物品进行混淆,1是,0不是,：
