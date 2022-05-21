@@ -86,6 +86,16 @@ def MakeSentenceBase():
 			OutSentence.append(LocationList[random.randint(0,len(LocationList)-1)])
 		elif i == "WRUB.Adverb":
 			OutSentence.append(AdverbList[random.randint(0,len(AdverbList)-1)])
+		elif i == "WRUB.Noun":
+			if NoDivided == "1":
+				OutSentence.append(MixedList[random.randint(0,len(MixedList)-1)])
+			else:
+				OutSentence.append(NounList[random.randint(0,len(NounList)-1)])
+		elif i == "WRUB.Person":
+			if NoDivided == "1":
+				OutSentence.append(MixedList[random.randint(0,len(MixedList)-1)])
+			else:
+				OutSentence.append(PersonList[random.randint(0,len(PersonList)-1)])
 		else:
 			OutSentence.append(i)
 	Out = ""
@@ -117,6 +127,16 @@ def MakeSentencePro():
 			OutSentence.append(LocationList[random.randint(0,len(LocationList)-1)])
 		elif i == "WRUB.Adverb":
 			OutSentence.append(AdverbList[random.randint(0,len(AdverbList)-1)])
+		elif i == "WRUB.Noun":
+			if NoDivided == "1":
+				OutSentence.append(MixedList[random.randint(0,len(MixedList)-1)])
+			else:
+				OutSentence.append(NounList[random.randint(0,len(NounList)-1)])
+		elif i == "WRUB.Person":
+			if NoDivided == "1":
+				OutSentence.append(MixedList[random.randint(0,len(MixedList)-1)])
+			else:
+				OutSentence.append(PersonList[random.randint(0,len(PersonList)-1)])
 		else:
 			OutSentence.append(i)
 	Out = ""
